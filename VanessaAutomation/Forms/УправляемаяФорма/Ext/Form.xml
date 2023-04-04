@@ -7018,6 +7018,32 @@
 																					</Button>
 																				</ChildItems>
 																			</ButtonGroup>
+																			<ButtonGroup name="ГруппаКонтекстногоМенюVanessaEditorМенюЗакрытиеВкладки" id="3922">
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа контекстного меню vanessa editor закрытие вкладки</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Vanessa Editor context menu group</v8:content>
+																					</v8:item>
+																				</Title>
+																				<ToolTip>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа контекстного меню vanessa editor меню закрытие вкладки</v8:content>
+																					</v8:item>
+																				</ToolTip>
+																				<ExtendedTooltip name="ГруппаКонтекстногоМенюVanessaEditorМенюЗакрытиеВкладкиРасширеннаяПодсказка" id="3923"/>
+																				<ChildItems>
+																					<Button name="VanessaEditorКонтекстноеМенюКонтекстноеМенюЗакрытьВкладку" id="3924">
+																						<Type>CommandBarButton</Type>
+																						<CommandName>Form.Command.VanessaEditorЗакрытьВкладку</CommandName>
+																						<ExtendedTooltip name="VanessaEditorКонтекстноеМенюКонтекстноеМенюЗакрытьВкладкуРасширеннаяПодсказка" id="3925"/>
+																					</Button>
+																				</ChildItems>
+																			</ButtonGroup>
 																		</ChildItems>
 																	</ContextMenu>
 																	<ExtendedTooltip name="VanessaEditorExtendedTooltip" id="2406"/>
