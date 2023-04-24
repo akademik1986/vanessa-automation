@@ -1536,6 +1536,11 @@
 								</Title>
 								<ExtendedTooltip name="VanessaEditorПолучитьИзмененияФормыGherkinРасширеннаяПодсказка" id="2898"/>
 							</Button>
+							<Button name="VanessaEditorПолучитьШагПроверкиШапкиФормы" id="3953">
+								<Type>CommandBarButton</Type>
+								<CommandName>Form.Command.ПолучитьШагПроверкиШапкиФормы</CommandName>
+								<ExtendedTooltip name="VanessaEditorПолучитьШагПроверкиШапкиФормыРасширеннаяПодсказка" id="3954"/>
+							</Button>
 							<Button name="VanessaEditorПолучитьСостояниеТекущегоЭлементаФормы" id="2899">
 								<Type>CommandBarButton</Type>
 								<CommandName>Form.Command.ПолучитьСостояниеТекущегоЭлементаФормы</CommandName>
@@ -6827,6 +6832,152 @@
 																					</Button>
 																				</ChildItems>
 																			</Popup>
+																			<ButtonGroup name="VanessaEditorКонтекстноеМенюГруппаПолученияШагов" id="3955">
+																				<Title>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Группа получения шагов</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>Steps receiving group</v8:content>
+																					</v8:item>
+																				</Title>
+																				<ExtendedTooltip name="VanessaEditorКонтекстноеМенюГруппаПолученияШаговРасширеннаяПодсказка" id="3956"/>
+																				<ChildItems>
+																					<Popup name="ГруппаКонтекстногоМенюVanessaEditorПодменюПолучитьШаг" id="2546">
+																						<Title>
+																							<v8:item>
+																								<v8:lang>ru</v8:lang>
+																								<v8:content>Получить шаг</v8:content>
+																							</v8:item>
+																							<v8:item>
+																								<v8:lang>en</v8:lang>
+																								<v8:content>Get a step</v8:content>
+																							</v8:item>
+																						</Title>
+																						<ExtendedTooltip name="ГруппаКонтекстногоМенюVanessaEditorПодменюПолучитьШагРасширеннаяПодсказка" id="2547"/>
+																						<ChildItems>
+																							<Button name="VanessaEditorКонтекстноеМенюПолучитьИзмененияФормыGherkin" id="2548">
+																								<Type>CommandBarButton</Type>
+																								<CommandName>Form.Command.ПолучитьИзмененияФормыGherkin</CommandName>
+																								<Title>
+																									<v8:item>
+																										<v8:lang>ru</v8:lang>
+																										<v8:content>Получить проверку всей формы в виде шагов</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>en</v8:lang>
+																										<v8:content>Get the whole form state</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>am</v8:lang>
+																										<v8:content>በቀዳሚ ግምገማዎች ላይ ያለው ስምዎ ስለጀመሩ ቅጽ</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>az</v8:lang>
+																										<v8:content>Almaq üçün dövlət bütün formaları</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>bg</v8:lang>
+																										<v8:content>Получаване на състоянието на цялата форма</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>de</v8:lang>
+																										<v8:content>Erhalten Sie den Zustand der gesamten Form</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>es</v8:lang>
+																										<v8:content>Obtener el estado de todo el formulario</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>et</v8:lang>
+																										<v8:content>Saada seisund kogu vormi</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>fr</v8:lang>
+																										<v8:content>Obtenir l'état de l'ensemble de la forme</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>hu</v8:lang>
+																										<v8:content>A teljes űrlap</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>it</v8:lang>
+																										<v8:content>Ottenere lo stato di forma intera</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>ka</v8:lang>
+																										<v8:content>უნდა მიიღოთ მთელი ფორმა</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>lt</v8:lang>
+																										<v8:content>Gauti būsena visos formos</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>lv</v8:lang>
+																										<v8:content>Saņemt stāvokli visā veidlapas</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>mn</v8:lang>
+																										<v8:content>Авах бүх хэлбэр</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>pl</v8:lang>
+																										<v8:content>Zobacz stan całej formy</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>ro</v8:lang>
+																										<v8:content>Pentru a obține starea de întregul formular</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>sl</v8:lang>
+																										<v8:content>Da bi dobili celoten obrazec</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>sv</v8:lang>
+																										<v8:content>För att få hela formen</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>tr</v8:lang>
+																										<v8:content>Bir devlet olsun tüm formu</v8:content>
+																									</v8:item>
+																									<v8:item>
+																										<v8:lang>vi</v8:lang>
+																										<v8:content>Nhận trạng thái tất cả biểu mẫu</v8:content>
+																									</v8:item>
+																								</Title>
+																								<ExtendedTooltip name="VanessaEditorКонтекстноеМенюПолучитьИзмененияФормыGherkinРасширеннаяПодсказка" id="2549"/>
+																							</Button>
+																							<Button name="VanessaEditorКонтекстноеМенюПолучитьШагПроверкиШапкиФормы" id="3951">
+																								<Type>CommandBarButton</Type>
+																								<CommandName>Form.Command.ПолучитьШагПроверкиШапкиФормы</CommandName>
+																								<ExtendedTooltip name="VanessaEditorКонтекстноеМенюПолучитьШагПроверкиШапкиФормыРасширеннаяПодсказка" id="3952"/>
+																							</Button>
+																							<Button name="VanessaEditorКонтекстноеМенюПолучитьСостояниеТекущегоЭлементаФормы" id="2550">
+																								<Type>CommandBarButton</Type>
+																								<CommandName>Form.Command.ПолучитьСостояниеТекущегоЭлементаФормы</CommandName>
+																								<ExtendedTooltip name="VanessaEditorКонтекстноеМенюПолучитьСостояниеТекущегоЭлементаФормыРасширеннаяПодсказка" id="2551"/>
+																							</Button>
+																							<Button name="VanessaEditorКонтекстноеМенюДобавитьПроверкуСообщенийПользователя" id="2558">
+																								<Type>CommandBarButton</Type>
+																								<CommandName>Form.Command.ДобавитьПроверкуСообщенийПользователя</CommandName>
+																								<ExtendedTooltip name="VanessaEditorКонтекстноеМенюДобавитьПроверкуСообщенийПользователяРасширеннаяПодсказка" id="2559"/>
+																							</Button>
+																							<Button name="VanessaEditorКонтекстноеМенюПолучитьШагОткрытияНавигационнойСсылкиТекущегоОкна" id="3235">
+																								<Type>CommandBarButton</Type>
+																								<CommandName>Form.Command.ПолучитьШагОткрытияНавигационнойСсылкиТекущегоОкна</CommandName>
+																								<ExtendedTooltip name="VanessaEditorКонтекстноеМенюПолучитьШагОткрытияНавигационнойСсылкиТекущегоОкнаРасширеннаяПодсказка" id="3236"/>
+																							</Button>
+																							<Button name="VanessaEditorКонтекстноеМенюПолучитьШагПроверкиТекущегоОкна" id="3939">
+																								<Type>CommandBarButton</Type>
+																								<CommandName>Form.Command.ПолучитьШагПроверкиТекущегоОкна</CommandName>
+																								<ExtendedTooltip name="VanessaEditorКонтекстноеМенюПолучитьШагПроверкиТекущегоОкнаРасширеннаяПодсказка" id="3940"/>
+																							</Button>
+																						</ChildItems>
+																					</Popup>
+																				</ChildItems>
+																			</ButtonGroup>
 																			<ButtonGroup name="ГруппаКонтекстногоМенюVanessaEditorРаботаСТаблицами" id="2506">
 																				<Title>
 																					<v8:item>
@@ -6859,132 +7010,6 @@
 																						<Type>CommandBarButton</Type>
 																						<CommandName>Form.Command.ПолучитьМакетПоТаблице</CommandName>
 																						<ExtendedTooltip name="VanessaEditorКонтекстноеМенюПолучитьМакетПоТаблицеРасширеннаяПодсказка" id="2511"/>
-																					</Button>
-																				</ChildItems>
-																			</ButtonGroup>
-																			<ButtonGroup name="ГруппаКонтекстногоМенюVanessaEditorПолучитьСостояниеФормы" id="2546">
-																				<Title>
-																					<v8:item>
-																						<v8:lang>ru</v8:lang>
-																						<v8:content>Работа с таблицами</v8:content>
-																					</v8:item>
-																					<v8:item>
-																						<v8:lang>en</v8:lang>
-																						<v8:content>Breakpoints</v8:content>
-																					</v8:item>
-																				</Title>
-																				<ExtendedTooltip name="ГруппаКонтекстногоМенюVanessaEditorПолучитьСостояниеФормыРасширеннаяПодсказка" id="2547"/>
-																				<ChildItems>
-																					<Button name="VanessaEditorКонтекстноеМенюПолучитьИзмененияФормыGherkin" id="2548">
-																						<Type>CommandBarButton</Type>
-																						<CommandName>Form.Command.ПолучитьИзмененияФормыGherkin</CommandName>
-																						<Title>
-																							<v8:item>
-																								<v8:lang>ru</v8:lang>
-																								<v8:content>Получить проверку всей формы в виде шагов</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>en</v8:lang>
-																								<v8:content>Get the whole form state</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>am</v8:lang>
-																								<v8:content>በቀዳሚ ግምገማዎች ላይ ያለው ስምዎ ስለጀመሩ ቅጽ</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>az</v8:lang>
-																								<v8:content>Almaq üçün dövlət bütün formaları</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>bg</v8:lang>
-																								<v8:content>Получаване на състоянието на цялата форма</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>de</v8:lang>
-																								<v8:content>Erhalten Sie den Zustand der gesamten Form</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>es</v8:lang>
-																								<v8:content>Obtener el estado de todo el formulario</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>et</v8:lang>
-																								<v8:content>Saada seisund kogu vormi</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>fr</v8:lang>
-																								<v8:content>Obtenir l'état de l'ensemble de la forme</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>hu</v8:lang>
-																								<v8:content>A teljes űrlap</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>it</v8:lang>
-																								<v8:content>Ottenere lo stato di forma intera</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>ka</v8:lang>
-																								<v8:content>უნდა მიიღოთ მთელი ფორმა</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>lt</v8:lang>
-																								<v8:content>Gauti būsena visos formos</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>lv</v8:lang>
-																								<v8:content>Saņemt stāvokli visā veidlapas</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>mn</v8:lang>
-																								<v8:content>Авах бүх хэлбэр</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>pl</v8:lang>
-																								<v8:content>Zobacz stan całej formy</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>ro</v8:lang>
-																								<v8:content>Pentru a obține starea de întregul formular</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>sl</v8:lang>
-																								<v8:content>Da bi dobili celoten obrazec</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>sv</v8:lang>
-																								<v8:content>För att få hela formen</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>tr</v8:lang>
-																								<v8:content>Bir devlet olsun tüm formu</v8:content>
-																							</v8:item>
-																							<v8:item>
-																								<v8:lang>vi</v8:lang>
-																								<v8:content>Nhận trạng thái tất cả biểu mẫu</v8:content>
-																							</v8:item>
-																						</Title>
-																						<ExtendedTooltip name="VanessaEditorКонтекстноеМенюПолучитьИзмененияФормыGherkinРасширеннаяПодсказка" id="2549"/>
-																					</Button>
-																					<Button name="VanessaEditorКонтекстноеМенюПолучитьСостояниеТекущегоЭлементаФормы" id="2550">
-																						<Type>CommandBarButton</Type>
-																						<CommandName>Form.Command.ПолучитьСостояниеТекущегоЭлементаФормы</CommandName>
-																						<ExtendedTooltip name="VanessaEditorКонтекстноеМенюПолучитьСостояниеТекущегоЭлементаФормыРасширеннаяПодсказка" id="2551"/>
-																					</Button>
-																					<Button name="VanessaEditorКонтекстноеМенюДобавитьПроверкуСообщенийПользователя" id="2558">
-																						<Type>CommandBarButton</Type>
-																						<CommandName>Form.Command.ДобавитьПроверкуСообщенийПользователя</CommandName>
-																						<ExtendedTooltip name="VanessaEditorКонтекстноеМенюДобавитьПроверкуСообщенийПользователяРасширеннаяПодсказка" id="2559"/>
-																					</Button>
-																					<Button name="VanessaEditorКонтекстноеМенюПолучитьШагОткрытияНавигационнойСсылкиТекущегоОкна" id="3235">
-																						<Type>CommandBarButton</Type>
-																						<CommandName>Form.Command.ПолучитьШагОткрытияНавигационнойСсылкиТекущегоОкна</CommandName>
-																						<ExtendedTooltip name="VanessaEditorКонтекстноеМенюПолучитьШагОткрытияНавигационнойСсылкиТекущегоОкнаРасширеннаяПодсказка" id="3236"/>
-																					</Button>
-																					<Button name="VanessaEditorКонтекстноеМенюПолучитьШагПроверкиТекущегоОкна" id="3939">
-																						<Type>CommandBarButton</Type>
-																						<CommandName>Form.Command.ПолучитьШагПроверкиТекущегоОкна</CommandName>
-																						<ExtendedTooltip name="VanessaEditorКонтекстноеМенюПолучитьШагПроверкиТекущегоОкнаРасширеннаяПодсказка" id="3940"/>
 																					</Button>
 																				</ChildItems>
 																			</ButtonGroup>
@@ -12555,6 +12580,7 @@
 															<DataPath>Объект.СписокСценариевДляВыполнения</DataPath>
 															<TitleLocation>Top</TitleLocation>
 															<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+															<ClearButton>true</ClearButton>
 															<ContextMenu name="СписокСценариевДляВыполненияКонтекстноеМеню" id="3224"/>
 															<ExtendedTooltip name="СписокСценариевДляВыполненияРасширеннаяПодсказка" id="3225">
 																<Width>50</Width>
@@ -16733,6 +16759,60 @@ Actual when working in the step tree mode.</v8:content>
 													<ControlRepresentation>Picture</ControlRepresentation>
 													<ExtendedTooltip name="ГруппаПодсистемаСтабилизацияВыполненияТестовРасширеннаяПодсказка" id="2561"/>
 													<ChildItems>
+														<UsualGroup name="ГруппаПодсистемаСтабилизацияВыполненияТестовНулеваяСтрока" id="3941">
+															<Title>
+																<v8:item>
+																	<v8:lang>ru</v8:lang>
+																	<v8:content>Группа подсистема стабилизация выполнения тестов нулевая строка</v8:content>
+																</v8:item>
+																<v8:item>
+																	<v8:lang>en</v8:lang>
+																	<v8:content>Group subsystem stabilization of test execution zero line</v8:content>
+																</v8:item>
+															</Title>
+															<Representation>None</Representation>
+															<ShowTitle>false</ShowTitle>
+															<ExtendedTooltip name="ГруппаПодсистемаСтабилизацияВыполненияТестовНулеваяСтрокаРасширеннаяПодсказка" id="3942"/>
+															<ChildItems>
+																<UsualGroup name="ГруппаПодсистемаСтабилизацияВыполненияТестовНулеваяСтрокаЛевыйСтолбец" id="3943">
+																	<Title>
+																		<v8:item>
+																			<v8:lang>ru</v8:lang>
+																			<v8:content>Группа подсистема стабилизация выполнения тестов нулевая строка левый столбец</v8:content>
+																		</v8:item>
+																		<v8:item>
+																			<v8:lang>en</v8:lang>
+																			<v8:content>Group subsystem stabilization of test execution zero line left column</v8:content>
+																		</v8:item>
+																	</Title>
+																	<Width>50</Width>
+																	<HorizontalStretch>false</HorizontalStretch>
+																	<Representation>None</Representation>
+																	<ShowTitle>false</ShowTitle>
+																	<ExtendedTooltip name="ГруппаПодсистемаСтабилизацияВыполненияТестовНулеваяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3944"/>
+																	<ChildItems>
+																		<InputField name="КоличествоПопытокВыполненияСценария" id="3948">
+																			<DataPath>Объект.КоличествоПопытокВыполненияСценария</DataPath>
+																			<TitleLocation>Top</TitleLocation>
+																			<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
+																			<ContextMenu name="КоличествоПопытокВыполненияСценарияКонтекстноеМеню" id="3949"/>
+																			<ExtendedTooltip name="КоличествоПопытокВыполненияСценарияРасширеннаяПодсказка" id="3950">
+																				<Title formatted="false">
+																					<v8:item>
+																						<v8:lang>en</v8:lang>
+																						<v8:content>If the setting specifies a value of more than one, then if the script was not executed successfully, several more attempts to execute the script will be made.</v8:content>
+																					</v8:item>
+																					<v8:item>
+																						<v8:lang>ru</v8:lang>
+																						<v8:content>Если в настройке указано значение более одного, тогда если сценарий не был выполнен успешно, будет выполнено ещё несколько попыток выполнения сценария.</v8:content>
+																					</v8:item>
+																				</Title>
+																			</ExtendedTooltip>
+																		</InputField>
+																	</ChildItems>
+																</UsualGroup>
+															</ChildItems>
+														</UsualGroup>
 														<UsualGroup name="ГруппаПодсистемаСтабилизацияВыполненияТестовПерваяСтрока" id="3374">
 															<Title>
 																<v8:item>
@@ -19493,25 +19573,28 @@ If the field is empty, then the log will not be output to a text file.</v8:conte
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиПятаяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3660"/>
 																					<ChildItems>
-																						<InputField name="ГруппировкаTestParentSuites" id="3905">
-																							<DataPath>Объект.ГруппировкаTestParentSuites</DataPath>
+																						<CheckBoxField name="ТегиПропускающиеСценарийAllure" id="2742">
+																							<DataPath>Объект.ТегиПропускающиеСценарийAllure</DataPath>
 																							<TitleLocation>Top</TitleLocation>
 																							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																							<ContextMenu name="ГруппировкаTestParentSuitesКонтекстноеМеню" id="3906"/>
-																							<ExtendedTooltip name="ГруппировкаTestParentSuitesРасширеннаяПодсказка" id="3907">
+																							<CheckBoxType>Auto</CheckBoxType>
+																							<ContextMenu name="ТегиПропускающиеСценарийAllureКонтекстноеМеню" id="2743"/>
+																							<ExtendedTooltip name="ТегиПропускающиеСценарийAllureРасширеннаяПодсказка" id="2744">
 																								<AutoMaxWidth>false</AutoMaxWidth>
-																								<Title formatted="false">
+																								<Title formatted="true">
 																									<v8:item>
 																										<v8:lang>ru</v8:lang>
-																										<v8:content>Задаёт значение parent группировки в отчете Allure на закладке Suites. Подробности описаны в справке.</v8:content>
+																										<v8:content>Список тегов, разделённых с помощью ";".
+Если в сценарии есть такой тег, тогда сценарий не будет выполняться и отчете Allure у него будет статус &lt;b&gt;пропущен/&lt;/&gt;&lt;b&gt;skipped&lt;/&gt;&lt;b&gt;.&lt;/&gt;</v8:content>
 																									</v8:item>
 																									<v8:item>
 																										<v8:lang>en</v8:lang>
-																										<v8:content>Sets parent grouping value for Allure report on the Suites tab. See Help info for details.</v8:content>
+																										<v8:content>&lt;font Almarai&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;List of tags separated by ";".&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
+&lt;font Almarai&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;If the script contains such a tag, then the script will not be executed and the Allure report will have the skipped status.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
 																									</v8:item>
 																								</Title>
 																							</ExtendedTooltip>
-																						</InputField>
+																						</CheckBoxField>
 																					</ChildItems>
 																				</UsualGroup>
 																				<UsualGroup name="ГруппаAllureОсновныеНастройкиПятаяСтрокаПравыйСтолбец" id="3661">
@@ -19584,27 +19667,6 @@ If the field is empty, then the log will not be output to a text file.</v8:conte
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиШестаяСтрокаЛевыйСтолбецРасширеннаяПодсказка" id="3904"/>
-																					<ChildItems>
-																						<InputField name="ГруппировкаTestSubSuites" id="3910">
-																							<DataPath>Объект.ГруппировкаTestSubSuites</DataPath>
-																							<TitleLocation>Top</TitleLocation>
-																							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																							<ContextMenu name="ГруппировкаTestSubSuitesКонтекстноеМеню" id="3911"/>
-																							<ExtendedTooltip name="ГруппировкаTestSubSuitesРасширеннаяПодсказка" id="3912">
-																								<AutoMaxWidth>false</AutoMaxWidth>
-																								<Title formatted="false">
-																									<v8:item>
-																										<v8:lang>ru</v8:lang>
-																										<v8:content>Задаёт значение sub группировки в отчете Allure на закладке Suites. Подробности описаны в справке.</v8:content>
-																									</v8:item>
-																									<v8:item>
-																										<v8:lang>en</v8:lang>
-																										<v8:content>Sets sub grouping value for Allure report on the Suites tab. See Help info for details.</v8:content>
-																									</v8:item>
-																								</Title>
-																							</ExtendedTooltip>
-																						</InputField>
-																					</ChildItems>
 																				</UsualGroup>
 																				<UsualGroup name="ГруппаAllureОсновныеНастройкиШестаяСтрокаПравыйСтолбец" id="3908">
 																					<Title>
@@ -19620,30 +19682,6 @@ If the field is empty, then the log will not be output to a text file.</v8:conte
 																					<Representation>None</Representation>
 																					<ShowTitle>false</ShowTitle>
 																					<ExtendedTooltip name="ГруппаAllureОсновныеНастройкиШестаяСтрокаПравыйСтолбецРасширеннаяПодсказка" id="3909"/>
-																					<ChildItems>
-																						<CheckBoxField name="ТегиПропускающиеСценарийAllure" id="2742">
-																							<DataPath>Объект.ТегиПропускающиеСценарийAllure</DataPath>
-																							<TitleLocation>Top</TitleLocation>
-																							<ToolTipRepresentation>ShowBottom</ToolTipRepresentation>
-																							<CheckBoxType>Auto</CheckBoxType>
-																							<ContextMenu name="ТегиПропускающиеСценарийAllureКонтекстноеМеню" id="2743"/>
-																							<ExtendedTooltip name="ТегиПропускающиеСценарийAllureРасширеннаяПодсказка" id="2744">
-																								<AutoMaxWidth>false</AutoMaxWidth>
-																								<Title formatted="true">
-																									<v8:item>
-																										<v8:lang>ru</v8:lang>
-																										<v8:content>Список тегов, разделённых с помощью ";".
-Если в сценарии есть такой тег, тогда сценарий не будет выполняться и отчете Allure у него будет статус &lt;b&gt;пропущен/&lt;/&gt;&lt;b&gt;skipped&lt;/&gt;&lt;b&gt;.&lt;/&gt;</v8:content>
-																									</v8:item>
-																									<v8:item>
-																										<v8:lang>en</v8:lang>
-																										<v8:content>&lt;font Almarai&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;List of tags separated by ";".&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;
-&lt;font Almarai&gt;&lt;fontsize 8&gt;&lt;color #333333&gt;&lt;bgcolor #FFFFFF&gt;If the script contains such a tag, then the script will not be executed and the Allure report will have the skipped status.&lt;/&gt;&lt;/&gt;&lt;/&gt;&lt;/&gt;</v8:content>
-																									</v8:item>
-																								</Title>
-																							</ExtendedTooltip>
-																						</CheckBoxField>
-																					</ChildItems>
 																				</UsualGroup>
 																			</ChildItems>
 																		</UsualGroup>
@@ -31877,20 +31915,10 @@ Click on the hyperlink for more details.</v8:content>
 													<ContextMenu name="УровеньОтчета3СлужебныйКонтекстноеМеню" id="1807"/>
 													<ExtendedTooltip name="УровеньОтчета3СлужебныйРасширеннаяПодсказка" id="1808"/>
 												</InputField>
-												<InputField name="ГруппировкаTestParentSuitesСлужебный" id="3913">
-													<DataPath>Объект.ГруппировкаTestParentSuites</DataPath>
-													<ContextMenu name="ГруппировкаTestParentSuitesСлужебныйКонтекстноеМеню" id="3914"/>
-													<ExtendedTooltip name="ГруппировкаTestParentSuitesСлужебныйРасширеннаяПодсказка" id="3881"/>
-												</InputField>
 												<InputField name="ГруппировкаTestSuitesСлужебный" id="3882">
 													<DataPath>Объект.ГруппировкаTestSuites</DataPath>
 													<ContextMenu name="ГруппировкаTestSuitesСлужебныйКонтекстноеМеню" id="3883"/>
 													<ExtendedTooltip name="ГруппировкаTestSuitesСлужебныйРасширеннаяПодсказка" id="3884"/>
-												</InputField>
-												<InputField name="ГруппировкаTestSubSuitesСлужебный" id="3885">
-													<DataPath>Объект.ГруппировкаTestSubSuites</DataPath>
-													<ContextMenu name="ГруппировкаTestSubSuitesСлужебныйКонтекстноеМеню" id="3886"/>
-													<ExtendedTooltip name="ГруппировкаTestSubSuitesСлужебныйРасширеннаяПодсказка" id="3887"/>
 												</InputField>
 												<InputField name="ИмяФайлаВнешнихКомандФреймворка" id="2240">
 													<DataPath>Объект.ИмяФайлаВнешнихКомандФреймворка</DataPath>
@@ -40513,6 +40541,7 @@ Click on the hyperlink for more details.</v8:content>
 					<v8:content>Get current form element validation in steps</v8:content>
 				</v8:item>
 			</ToolTip>
+			<Shortcut>Ctrl+Shift+C</Shortcut>
 			<Action>ПолучитьСостояниеТекущегоЭлементаФормыКнопка</Action>
 			<CurrentRowUse>DontUse</CurrentRowUse>
 		</Command>
@@ -43456,6 +43485,29 @@ Click on the hyperlink for more details.</v8:content>
 				</v8:item>
 			</ToolTip>
 			<Action>ПолучитьШагПроверкиТекущегоОкна</Action>
+		</Command>
+		<Command name="ПолучитьШагПроверкиШапкиФормы" id="180">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить шаг проверки шапки формы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Get form header validation step</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Получить шаг проверки шапки формы</v8:content>
+				</v8:item>
+				<v8:item>
+					<v8:lang>en</v8:lang>
+					<v8:content>Get form header validation step</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ПолучитьШагПроверкиШапкиФормы</Action>
 		</Command>
 	</Commands>
 </Form>

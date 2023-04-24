@@ -9,7 +9,7 @@
 ## BDD for 1С:Enterprise
 
 * Текущий **мажорный** релиз [1.2.040.1](https://github.com/Pr-Mex/vanessa-automation/releases/tag/1.2.040.1)
-* Текущий **минорный** релиз [1.2.040.1](https://github.com/Pr-Mex/vanessa-automation/releases/tag/1.2.040.1)
+* Текущий **минорный** релиз [1.2.040.15](https://github.com/Pr-Mex/vanessa-automation/releases/tag/1.2.040.15)
 * Разработка ведется в ветке [Develop](https://github.com/Pr-Mex/vanessa-automation/tree/develop).
 * [Обсудить Ванессу](https://t.me/testspro1c) в телеграм группе, и обсудить всё, что связано с тестированием в 1С.
 * [Подписаться на новости о проекте](https://t.me/VanessaAutomation) в телеграм канале.
@@ -21,6 +21,7 @@
 #### Также можно посмотреть
 
 * [Интерактивная справка в формате видео](https://www.youtube.com/channel/UC-GC02tUKAXKWGZVaPKtg6w/playlists).
+* [Интерактивная справка в формате видео (на английском)](https://www.youtube.com/channel/UCs9tix1nAJC8-yRQpmZ92fQ/playlists).
 * [Видео инструкции (разное)](https://www.youtube.com/channel/UC114RqHhG__1gET8pzs3AHA/playlists).
 * [Вебинар 2016 года](http://infostart.ru/webinars/537546/). 
 
