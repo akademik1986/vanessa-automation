@@ -3117,7 +3117,7 @@ Function LocalizedStringsServer()
 	ReturnData.Insert("s1c_en", "And I run database clean");
 	ReturnData.Insert("s1c_ru", "И Я запускаю очистку базы данных");
 	ReturnData.Insert("s1d_en", "Cleans the database");
-	ReturnData.Insert("s1d_ru", "Очищает базу данных");
+	ReturnData.Insert("s1d_ru", "Очищает базу данных. Работает только в серверных базах.");
 	
 	ReturnData.Insert("s2a_en", "ICheckOrCreateCatalogObjects(ObjectName, Values)");
 	ReturnData.Insert("s2a_ru", "ЯПроверяюИлиСоздаюДляСправочникаОбъекты(ИмяОбъекта, Значения)");
@@ -3207,7 +3207,7 @@ Function LocalizedStringsServer()
 	ReturnData.Insert("s9a_en", "#language: en");
 	ReturnData.Insert("s9a_ru", "#language: ru");
 	ReturnData.Insert("s9b_en", "@tree");
-	ReturnData.Insert("s9b_ru", "@дерево");
+	ReturnData.Insert("s9b_ru", "@tree");
 	ReturnData.Insert("s9c_en", "Feature: export scenarios");
 	ReturnData.Insert("s9c_ru", "Функционал: экспорт сценариев");
 	ReturnData.Insert("s9d_en", "Background:");
